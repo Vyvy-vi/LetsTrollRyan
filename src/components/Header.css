@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+header {
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 4em;
+    color: #ececec;
+    text-align: center;
+}
+
+header img {
+    margin-bottom: 2em;
+    width: 12em;
+    height: auto;
+    transition: .8s ease-in-out;
+}
+
+header img:hover {
+    transform: rotate(360deg) scale(1.5);
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+}
